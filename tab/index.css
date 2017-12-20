@@ -1,0 +1,32 @@
+
+       h2 {
+        float: left;
+        width: 100px;
+        height: 50px;
+        margin: 0;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    h2:hover {
+        cursor: pointer
+    }
+    
+    .tab-content {
+        width: 302px;
+        height: 300px;
+    }
+    
+    .tab-content div{
+        display: none;
+        text-align: center;
+        line-height: 300px;
+    }
+    
+    .selected {
+        background-color: red;
+    }
+    
+    .tab-content .show{
+        display: block;
+    }
